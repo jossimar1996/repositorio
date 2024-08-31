@@ -22,7 +22,7 @@ import {
   List,
 } from "@chakra-ui/react";
 import "./Home.css";
-import Carousel from "../components/carousel";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
   const urlStores = "http://localhost:3006/stores";
