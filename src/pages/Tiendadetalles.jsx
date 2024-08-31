@@ -33,7 +33,7 @@ const initialValue = {
 };
 
 const TiendaDetalles = () => {
-  const url = "http://localhost:3006/stores";
+  const url = "https://basedatos.vercel.app/stores";
   const [store, setStore] = useState(initialValue);
   const {
     Stand,
